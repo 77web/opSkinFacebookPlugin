@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>opSkinFacebookPlugin</name>
+ <channel>plugins.openpne.jp</channel>
+ <summary>facebook風表示のスキンプラグイン</summary>
+ <description>OpenPNE3.xをFacebook”風”のデザインで表示するスキンプラグインです。
+スマートフォン（iphone,android携帯）での表示に試験的に対応してみました。
+ </description>
+ <lead>
+  <name>hissy</name>
+  <user>77web</user>
+  <email />
+  <active>yes</active>
+ </lead>
+ <date>2011-01-29</date>
+ <time>17:55:27</time>
+ <version>
+  <release>0.9.0</release>
+  <api>0.9.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license>PHP</license>
+ <notes>First release</notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="32679ae3974d7d64cb0bfd7032ea87fe" name="apps/pc_frontend/config/view.yml" role="data" />
+   <file baseinstalldir="/" md5sum="62a60b45cc11ae7b23fdada3c94587ca" name="config/config.php" role="data" />
+   <file baseinstalldir="/" md5sum="fba052c2ee387336bfb754e54c08d256" name="lib/opSkinFacebookPluginStyle.class.php" role="data" />
+   <file baseinstalldir="/" md5sum="41a7859b4dcf14fb470f1f809ce9b983" name="web/css/base.css" role="data" />
+   <file baseinstalldir="/" md5sum="d59fd602f691973391c242a90acd6297" name="web/css/baselayout.css" role="data" />
+   <file baseinstalldir="/" md5sum="71ce4e8afbb379daafa90c8dfd5fa9d0" name="web/css/common.css" role="data" />
+   <file baseinstalldir="/" md5sum="bf76cf76f236ecf028ac52bfeebeef42" name="web/css/main.css" role="data" />
+   <file baseinstalldir="/" md5sum="f811e2cc9b4e09650560f2dab24bdb88" name="web/css/smart.css" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.3</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.2.0</min>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.9.0</release>
+    <api>0.9.0</api>
+   </version>
+   <stability>
+    <release>beta</release>
+    <api>beta</api>
+   </stability>
+   <date>2011-01-29</date>
+   <license>PHP</license>
+   <notes>First release</notes>
+  </release>
+ </changelog>
+</package>
