@@ -1,0 +1,29 @@
+@import url("base.css");
+
+body
+{
+  color: #333333;
+  font-size: 11px;
+}
+
+a
+{
+  color: #3b5998;
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
+
+input.input_submit
+{
+  background: #4f6aa3;
+  color: #fff;
+  font-weight: bold;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #29447E #29447E #1A356E;
+  padding: 2px 5px;
+}
+

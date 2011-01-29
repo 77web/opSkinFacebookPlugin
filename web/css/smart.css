@@ -1,0 +1,124 @@
+/* @import url("common.css"); */
+
+*
+{
+ float: none;
+}
+
+div#Header
+{
+  background: #fff;
+  height: auto;
+}
+
+div#HeaderContainer
+{
+  width: 100%;
+  height: auto;
+}
+
+div#HeaderContainer h1
+{
+  float: none;
+  width: 100%;
+  height: 20px;
+  background: #3b5998;
+  margin-top: 0;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 2px;
+}
+
+div#globalNav
+{
+  float: none;
+  width: 100%;
+  background: #fff;
+  height: auto;
+}
+
+div#globalNav ul
+{
+  list-style: disc outside;
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+}
+div#globalNav ul li
+{
+  float: none;
+  display: block;
+  padding: 0;
+  height: auto;
+}
+div#globalNav ul li a
+{
+  height: auto;
+  color: #3b5998;
+  display: inline;
+  line-height: 100%;
+  height: auto;
+  padding: 2px;
+}
+
+div#globalNav ul li a:hover
+{
+  background: #fff;
+  text-decoration: underline;
+}
+
+
+div#localNav
+{
+  height: auto;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding-top: 10px;
+}
+div#localNav ul
+{
+  list-style: circle outside;
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+div#localNav ul li
+{
+  float: none;
+  display: block;
+  background: #fff;
+  height: auto;
+  text-indent: 2em;
+}
+
+div#localNav ul li a
+{
+  display: inline;
+  background: #fff;
+  color: #3b5998;
+  border: 0;
+  line-height: 100%;
+  height: auto;
+  padding: 2px;
+}
+
+div#localNav ul li a:hover
+{
+  background: #fff;
+  text-decoration: underline;
+  color: #3b5998;
+}
+
+div#Contents, div#LayoutA, div#LayoutB, div#LayoutC, div#LayoutA div#Left, div#LayoutB div#Left, div#LayoutA div#Center, div#LayoutB div#Center, div#Footer
+{
+  width: 320px;
+  float: none;
+}
+div#Footer
+{
+  padding-left: 0px;
+  padding-top: 10px;
+  border-top: 1px solid #999;
+}

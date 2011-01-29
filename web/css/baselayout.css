@@ -1,0 +1,59 @@
+/*----------------------------------------------
+ * Base Layout
+ *--------------------------------------------*/
+#LayoutA,
+#LayoutB,
+#LayoutC {
+  float: left;
+  width: 720px;
+}
+
+#LayoutA #Left {
+  float: left;
+  width: 270px;
+}
+
+#LayoutA #Center {
+  float: right;
+  width: 440px;
+}
+
+#LayoutA #Bottom {
+  clear: both;
+}
+
+#LayoutB #Left {
+  float: left;
+  width: 175px;
+}
+
+#LayoutB #Center {
+  float: right;
+  width: 540px;
+}
+
+#LayoutB #Bottom {
+  clear: both;
+}
+
+#LayoutC #Center {
+  width: 650px;
+  margin: 0 auto;
+}
+
+#topBanner {
+  height: 48px;
+  left: 474px;
+  position: absolute;
+  top: 2px;
+  width: 468px;
+}
+
+#sideBanner {
+  float: right;
+  width: 225px;
+}
+
+#Footer {
+  clear: both;
+}
