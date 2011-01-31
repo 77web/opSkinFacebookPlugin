@@ -7,7 +7,7 @@ class opSkinFacebookPluginStyle
     $response = sfContext::getInstance()->getResponse();
     $request = sfContext::getInstance()->getRequest();
     
-    if($request instanceOf sfOpenPNEWebRequest && self::isSmartPhone($request->getHttpHeader('User-Agent')))
+    if(self::isSmartPhone($request->getHttpHeader('User-Agent')))
     {
       $response->addStylesheet('/opSkinFacebookPlugin/css/smart.css', 'last');
       $response->addMeta('viewport', 'width=320,initial-scale=1.0,user-scalable=yes,maximum-scale=3.0');
